@@ -118,3 +118,11 @@ local model will overwrite these with a fresh run.
   logic covers most cases in testing, but a production version would want a
   bounded retry loop (e.g. 3 attempts) and a fallback to returning the raw
   text with a `"parse_error": true` flag rather than crashing.
+  - **Observed with phi3 (3.8B) on the sample transcript:** it dropped one
+  action item entirely (the "schedule a follow-up meeting" task) and
+  classified an explicit decision (the launch date change) as a discussion
+  point instead of a decision. This is a real accuracy tradeoff of running
+  a small local model vs. a larger hosted one (Gemini 2.5 Flash / GPT-4o-mini)
+  — worth calling out rather than hiding, since it's exactly the kind of
+  failure mode a reviewer should know about before relying on this in
+  production.
