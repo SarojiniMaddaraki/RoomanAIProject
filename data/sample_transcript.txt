@@ -1,0 +1,33 @@
+Meeting: Q3 Marketing Sync
+Date: August 18, 2026
+Attendees: Priya (Marketing Lead), Rahul (Design), Ananya (Content), Vikram (Growth)
+
+Priya: Let's start with the Q3 campaign review. Paid social is outperforming email by about 3x on cost per lead.
+
+Vikram: Agreed. I think we should shift more budget toward paid social. I'd suggest bumping it by 20%.
+
+Priya: Let's go with that. Decision: we're increasing the paid social budget by 20% for the rest of Q3.
+
+Priya: Next, the landing page launch. Rahul, where are we?
+
+Rahul: Mockups are close but not final. I need a few more days.
+
+Priya: Okay, let's push the launch from August 25 to September 1. Rahul, can you finalize the mockups by August 22 so QA has time?
+
+Rahul: Yes, I'll get the final mockups done by August 22.
+
+Priya: Great. Ananya, for the September campaign we'll need supporting blog content.
+
+Ananya: I can draft three posts. I'll have them ready by August 29.
+
+Priya: Perfect. Vikram, can you pull the current paid social budget numbers so we have a baseline?
+
+Vikram: Sure, I'll get those numbers over by end of week.
+
+Priya: Thanks. I'll set up a follow-up review meeting for September 2 to check progress on all of this.
+
+Ananya: One more thing — should we look into influencer partnerships for the September push?
+
+Priya: Let's discuss that separately, it's not scoped yet.
+
+Priya: Okay, I think that covers everything for today. Thanks all.

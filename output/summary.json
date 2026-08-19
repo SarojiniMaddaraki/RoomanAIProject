@@ -1,0 +1,29 @@
+{
+  "summary": {
+    "decisions": [
+      "Increase the paid social budget by 20% for the rest of Q3."
+    ],
+    "discussion_points": [
+      "Paid social is outperforming email by about 3x on cost per lead.",
+      "Landing page launch date moved from August 25 to September 1.",
+      "Influencer partnerships for the September campaign are to be discussed separately."
+    ]
+  },
+  "action_items": [
+    {
+      "item": "Finalize mockups for the landing page",
+      "owner": "Rahul",
+      "due_date": "August 22"
+    },
+    {
+      "item": "Pull current paid social budget numbers",
+      "owner": "Vikram",
+      "due_date": "end of week"
+    },
+    {
+      "item": "Draft three supporting blog posts for the September campaign",
+      "owner": "Ananya",
+      "due_date": "August 29"
+    }
+  ]
+}
