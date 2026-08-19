@@ -1,0 +1,31 @@
+{
+  "summary": {
+    "decisions": [
+      "Adopt exponential backoff with jitter for all outbound retries",
+      "Postpone the new notifications feature to next sprint"
+    ],
+    "discussion_points": [
+      "Rate-limiting bug caused by immediate retries without backoff",
+      "Need for frontend to handle new retry-related error states",
+      "Writing regression tests for the rate limiter",
+      "Potential migration of the message queue for long-term reliability"
+    ]
+  },
+  "action_items": [
+    {
+      "item": "Implement exponential backoff with jitter for retries",
+      "owner": "Dev",
+      "due_date": "August 21, 2026"
+    },
+    {
+      "item": "Update frontend error handling for new retry-related states",
+      "owner": "Ishaan",
+      "due_date": "August 25, 2026"
+    },
+    {
+      "item": "Write regression tests for the rate limiter",
+      "owner": "Farah",
+      "due_date": null
+    }
+  ]
+}

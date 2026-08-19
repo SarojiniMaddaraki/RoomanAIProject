@@ -5,8 +5,9 @@
     ],
     "discussion_points": [
       "Paid social is outperforming email by about 3x on cost per lead.",
-      "Landing page launch date moved from August 25 to September 1.",
-      "Influencer partnerships for the September campaign are to be discussed separately."
+      "Landing page launch delayed from August 25 to September 1.",
+      "Ananya to draft three blog posts for the September campaign by August 29.",
+      "Influencer partnerships for the September push to be discussed separately."
     ]
   },
   "action_items": [
@@ -21,7 +22,12 @@
       "due_date": "end of week"
     },
     {
-      "item": "Draft three supporting blog posts for the September campaign",
+      "item": "Set up a follow-up review meeting for September 2",
+      "owner": "Priya",
+      "due_date": "August 18"
+    },
+    {
+      "item": "Draft blog content for the September campaign",
       "owner": "Ananya",
       "due_date": "August 29"
     }

@@ -1,0 +1,31 @@
+Meeting: Sprint Planning - Backend Reliability
+Date: August 19, 2026
+Attendees: Meera (Eng Lead), Dev (Backend), Ishaan (Frontend), Farah (QA)
+
+Meera: Let's go through the rate-limiting bug from last week first. Dev, what's the root cause?
+
+Dev: Turns out we retry failed requests immediately with no backoff, so under load we hammer the API and trip the rate limiter ourselves.
+
+Meera: Okay, let's fix that properly. Decision: we're adopting exponential backoff with jitter for all outbound retries, not just a quick patch.
+
+Dev: I can implement that. I'll have it done by this Friday, August 21st.
+
+Meera: Great. Ishaan, once that's in, the frontend needs to handle the new retry-related error states gracefully instead of just showing a generic failure.
+
+Ishaan: Makes sense, I'll update the frontend error handling by August 25.
+
+Meera: Farah, once Dev's change lands, can you write regression tests for the rate limiter specifically?
+
+Farah: Yeah, I'll get those written before the next release, don't have an exact date yet since I don't know when Dev's PR merges.
+
+Meera: Fair enough. Also, quick decision on scope — we're postponing the new notifications feature to next sprint so we have room to focus on this reliability work.
+
+Dev: Sounds good, that's been half-scoped anyway.
+
+Meera: One more thing — should we look at migrating off our current message queue to something more reliable long-term?
+
+Ishaan: Worth discussing, but that's a bigger conversation than today's meeting.
+
+Meera: Agreed, let's park that for now. I'll update the sprint board with all of this by end of day.
+
+Meera: Alright, that's everything. Thanks all.

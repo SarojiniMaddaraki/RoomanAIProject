@@ -1,0 +1,4 @@
+item,owner,due_date
+Implement exponential backoff with jitter for retries,Dev,"August 21, 2026"
+Update frontend error handling for new retry-related states,Ishaan,"August 25, 2026"
+Write regression tests for the rate limiter,Farah,
